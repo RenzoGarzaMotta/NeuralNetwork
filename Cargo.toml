@@ -1,0 +1,13 @@
+[package]
+name = "neural_network"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+plotly = "0.8"
+ndarray = "0.15"   # handy for neural network math
+rand = "0.8"       # random number generation
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+glob = "0.3"
+csv = "1.1"
